@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to right, #536976, #292e49);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .calculator {
+    background-color: #d1d1d1;
+    width: 350px;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    transition: 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #b0c4de;
+  }
+  
+  .operator {
+    background-color: #008b8b;
+  }
+  
+  .operator:hover {
+    background-color: #20b2aa;
+  }
+  
+  .equal {
+    background-color: #001f3f;
+    color: white;
+  }
+  
+  .equal:hover {
+    background-color: #004080;
+  }
